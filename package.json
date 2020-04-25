@@ -1,0 +1,22 @@
+{
+  "name": "laomeng_blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^1.4.1",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-theme-antdocs": "^1.0.1"
+  },
+  "devDependencies": {
+    "vuepress-plugin-auto-sidebar": "^1.4.1",
+    "vuepress-plugin-permalink-pinyin": "^1.0.0",
+    "vuepress-plugin-reading-progress": "^1.0.9"
+  }
+}
